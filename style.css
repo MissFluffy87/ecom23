@@ -1,29 +1,58 @@
-.parent {
-    /* border: 3px solid grey; */
-    width: 250px;
-    height: 250px;
-    box-shadow: 0 0 10px hwb(0 0% 100% / 0.411);
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    font-size: 74px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h1,
+p {
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.logo {
+    height: 300px;
+    width: 800px;
+}
+
+.header-nav {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+
+#active {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.empty {
+    max-width: 10px;
+    max-height: 10
+    }
+
+.image {
+    height: 75vh;
+    background-image: url("logo.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    padding: 16px;
     display: flex;
     flex-direction: column;
-    align-items: end;
-    justify-content: space-between;
-    margin: 20px;
-    /* padding: 20px; */
-}
-
-.child{
-    background-color: #943131;
-    height: 25px;
-    width: 25px;
-}
-
-.special {
-    background-color: hsl(120, 49%, 29%);
-    align-self: center;
     justify-content: flex-end;
-}
-
-.special1{
-    align-self: flex-start;
 
 }

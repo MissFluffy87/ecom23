@@ -1,0 +1,29 @@
+.parent {
+    /* border: 3px solid grey; */
+    width: 250px;
+    height: 250px;
+    box-shadow: 0 0 10px hwb(0 0% 100% / 0.411);
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: space-between;
+    margin: 20px;
+    /* padding: 20px; */
+}
+
+.child{
+    background-color: #943131;
+    height: 25px;
+    width: 25px;
+}
+
+.special {
+    background-color: hsl(120, 49%, 29%);
+    align-self: center;
+    justify-content: flex-end;
+}
+
+.special1{
+    align-self: flex-start;
+
+}

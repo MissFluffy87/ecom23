@@ -1,4 +1,4 @@
-* {
+der* {
     margin-block-start: 0;
     margin-block-end: 0;
 }
@@ -18,7 +18,7 @@ header {
     height: 655px;
     background-repeat: no-repeat;
     background-size: cover;
-   background-image:url("../image/bakgrund.png");
+   background-image:url("../image/header-background-image.png");
 }
 
 h1 {
@@ -61,7 +61,7 @@ body {
     align-items: center;
     height: 360px;
     width: 610px;
-    background-image:url("../image/bakgrund.png");
+    background-image:url("../image/bakgrund .png");
     font-family: "italiana";
     font-size: 40px;
     font-weight: 400;
